@@ -26,7 +26,7 @@ export function Hero() {
         {/* Outlined Background Text */}
         <div className="absolute top-[40%] md:top-1/2 left-1/2 -translate-x-1/2 -translate-y-[80%] w-full pointer-events-none -z-10">
           <h1 className="text-[18vw] md:text-[12vw] font-black leading-none text-outline opacity-30 whitespace-nowrap">
-            FURRY
+            HPC
           </h1>
         </div>
 
@@ -45,11 +45,11 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
-          className="text-[3.5rem] md:text-[7.5rem] font-black leading-[0.9] text-[#1e293b] mb-4 md:mb-6 tracking-tight relative z-20 uppercase"
+          className="text-[3.5rem] md:text-[6rem] font-black leading-[0.9] text-[#1e293b] mb-4 md:mb-6 tracking-tight relative z-20 uppercase"
         >
-          PERFECT <span className="text-primary block md:inline">COMPANIONS</span><br className="hidden md:block"/>
-          FOR YOUR <span className="relative inline-block">
-            HOME
+          HYDERABAD<br className="hidden md:block"/>
+          <span className="text-primary block md:inline">PERSIAN</span> <span className="relative inline-block">
+            CATS
             <svg className="absolute -bottom-1 md:-bottom-2 left-0 w-full h-3 md:h-4 text-accent-blue -z-10" viewBox="0 0 100 20" preserveAspectRatio="none">
               <path d="M0,10 Q50,20 100,10" fill="currentColor" />
             </svg>
@@ -62,7 +62,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-base md:text-xl text-[#475569] mb-8 md:mb-12 max-w-2xl mx-auto font-bold px-4"
         >
-          Playful, affectionate, and perfectly groomed. Discover your new fluffy best friend today!
+          Perfect companions for your home. Playful, affectionate, and perfectly groomed.
         </motion.p>
         
         {/* Call to action */}

@@ -107,7 +107,7 @@ export default function StorePage() {
           </div>
           
           <h1 className="text-2xl md:text-4xl font-black text-[#1e293b] hidden md:block">
-            FURRY <span className="text-primary-dark text-outline bg-clip-text">STORE</span>
+            HPC <span className="text-primary-dark text-outline bg-clip-text">STORE</span>
           </h1>
 
           <div className="flex items-center gap-2 relative w-full md:w-auto">

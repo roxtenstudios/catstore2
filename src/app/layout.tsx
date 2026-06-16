@@ -16,7 +16,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Paw Furry Friends | Royal Persians",
+  title: "Hyderabad Persian Cats | HPC",
   description: "Playful, affectionate, and perfectly groomed Persian kittens for your home.",
 };
 

@@ -17,7 +17,7 @@ export function Footer() {
           
           <div className="space-y-6">
             <h3 className="font-bold text-2xl text-foreground flex items-center gap-2">
-              Royal <span className="text-primary-dark">Persians</span>
+              Hyderabad <span className="text-primary-dark">Persian Cats</span>
             </h3>
             <p className="text-foreground/70 leading-relaxed">
               Ethically raising exceptional, healthy, and affectionate Persian kittens for loving homes worldwide.
@@ -82,7 +82,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-200 text-center text-foreground/50 text-sm">
-          <p>© {new Date().getFullYear()} Royal Persian Cats. All rights reserved. Premium Breeder.</p>
+          <p>© {new Date().getFullYear()} Hyderabad Persian Cats. All rights reserved. Premium Breeder.</p>
         </div>
       </div>
     </footer>
