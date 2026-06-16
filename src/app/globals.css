@@ -1,26 +1,83 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: #fdfbf7;
+  --color-foreground: #334155;
+  --color-primary: #f97316;
+  --color-primary-dark: #ea580c; 
+  --color-accent-peach: #ffedd5;
+  --color-accent-blue: #e0f2fe;
+  --color-accent-green: #dcfce7;
+  --color-accent-pink: #fce7f3;
+  --color-accent-yellow: #fef08a;
+  
+  --font-heading: var(--font-fredoka);
+  --font-sans: var(--font-nunito);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #fdfbf7;
+  --foreground: #334155;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: #1e293b;
+}
+
+/* Hide scrollbar for clean feel */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Utility for soft premium shadows */
+.shadow-premium {
+  box-shadow: 0 20px 40px -15px rgba(249, 115, 22, 0.15), 0 10px 20px -10px rgba(0,0,0,0.02);
+}
+
+.shadow-card {
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.05);
+}
+
+.shadow-sticker {
+  box-shadow: 0 4px 0px 0px rgba(0,0,0,0.1), 0 10px 20px -5px rgba(0,0,0,0.1);
+}
+
+/* Outline text utility for Hero */
+.text-outline {
+  -webkit-text-stroke: 2px #cbd5e1;
+  color: transparent;
+}
+
+/* Mask image utility for blob */
+.blob-mask {
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 70%);
+  -webkit-mask-image: -webkit-radial-gradient(center, ellipse cover, black 40%, transparent 70%);
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+/* Hide scrollbar for horizontal scroll areas */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

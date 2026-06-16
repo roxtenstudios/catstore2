@@ -1,0 +1,106 @@
+export const storeItems = [
+  {
+    id: 1,
+    name: "Prince Caspian",
+    type: "Kitten",
+    category: "kittens",
+    price: 2500,
+    priceLabel: "$2,500",
+    status: "Available",
+    image: "https://images.unsplash.com/photo-1543852786-1cf6624b9987?q=80&w=800&auto=format&fit=crop",
+    bg: "bg-accent-blue",
+    description: "Prince Caspian is an incredibly sweet Silver Shaded Persian. He loves lounging in sunny spots and is highly affectionate.",
+    traits: ["Playful", "Lap Cat", "Silver Shaded", "Male"]
+  },
+  {
+    id: 2,
+    name: "Princess Aurora",
+    type: "Kitten",
+    category: "kittens",
+    price: 3000,
+    priceLabel: "$3,000",
+    status: "Reserved",
+    image: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=800&auto=format&fit=crop",
+    bg: "bg-accent-peach",
+    description: "A gorgeous Golden Tabby with striking green eyes. Princess Aurora is very vocal and loves to be the center of attention.",
+    traits: ["Gentle", "Vocal", "Golden Tabby", "Female"]
+  },
+  {
+    id: 3,
+    name: "Duke Leo",
+    type: "Kitten",
+    category: "kittens",
+    price: 2200,
+    priceLabel: "$2,200",
+    status: "Available",
+    image: "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?q=80&w=800&auto=format&fit=crop",
+    bg: "bg-accent-pink",
+    description: "A brave and energetic Red Tabby. Duke Leo is the first to explore new toys and loves chasing feather wands.",
+    traits: ["Energetic", "Social", "Red Tabby", "Male"]
+  },
+  {
+    id: 4,
+    name: "Luxury Grooming Kit",
+    type: "Grooming",
+    category: "accessories",
+    price: 45,
+    priceLabel: "$45",
+    status: "In Stock",
+    image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=400&auto=format&fit=crop",
+    bg: "bg-accent-yellow",
+    description: "Everything you need to keep your Persian's coat pristine. Includes a slicker brush, metal comb, and tear stain remover.",
+    traits: ["Premium Quality", "Essential", "Durable"]
+  },
+  {
+    id: 5,
+    name: "Organic Salmon Treats",
+    type: "Food",
+    category: "food",
+    price: 18,
+    priceLabel: "$18",
+    status: "In Stock",
+    image: "https://images.unsplash.com/photo-1623387641177-e8a4d7d10e8d?q=80&w=400&auto=format&fit=crop",
+    bg: "bg-accent-green",
+    description: "100% natural, freeze-dried salmon treats. Rich in Omega-3 fatty acids for a healthy, shiny coat.",
+    traits: ["Organic", "Grain Free", "Healthy"]
+  },
+  {
+    id: 6,
+    name: "Plush Cloud Bed",
+    type: "Accessory",
+    category: "accessories",
+    price: 85,
+    priceLabel: "$85",
+    status: "In Stock",
+    image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=400&auto=format&fit=crop",
+    bg: "bg-accent-pink",
+    description: "Ultra-soft faux fur bed that mimics the comfort of a mother's coat. Machine washable and highly durable.",
+    traits: ["Machine Washable", "Faux Fur", "Cozy"]
+  },
+  {
+    id: 7,
+    name: "Lady Bella",
+    type: "Kitten",
+    category: "kittens",
+    price: 2800,
+    priceLabel: "$2,800",
+    status: "Available",
+    image: "https://images.unsplash.com/photo-1513245543132-31f507417b26?q=80&w=800&auto=format&fit=crop",
+    bg: "bg-accent-blue",
+    description: "Lady Bella is a stunning doll-face Persian with a pristine white coat. She is incredibly gentle and loves being brushed.",
+    traits: ["Doll-Face", "White Coat", "Calm", "Female"]
+  },
+  {
+    id: 8,
+    name: "Interactive Laser Toy",
+    type: "Toy",
+    category: "toys",
+    price: 25,
+    priceLabel: "$25",
+    status: "In Stock",
+    image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=400&auto=format&fit=crop", // placeholder
+    bg: "bg-accent-peach",
+    description: "Keep your kitten entertained for hours with this automated, rotating laser toy with variable speeds.",
+    traits: ["Battery Operated", "Stimulating", "Safe"]
+  }
+];
